@@ -8,7 +8,9 @@ out_units=input()
 #miles
 
 if start_units == 'km':
-    1.609 / new_unit
-    
-
+    new_unit= 1.609/ distance
 print(distance, 'in km is', new_unit,'.' )
+if start_units == 'mi':
+    new_unit= 1.609 * distance
+
+print(distance, 'in mi is', new_unit,'.')
